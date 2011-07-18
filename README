@@ -12,7 +12,8 @@
 #  Entrada padrão
 #  Saída padrão
 #  Saída de erro padrão
-#  Pipe
+#  Here Document
+#  Redirecionamento de comandos
 #  
 # Capítulo 03: O editor de textos "vi"
 #  Modos de edição e de comandos
