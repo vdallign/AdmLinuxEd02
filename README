@@ -9,17 +9,20 @@
 #  Entrando e saindo do sistema
 #  Lidando com diretórios
 #  Manipulando arquivos
+#  Entrada padrão
+#  Saída padrão
+#  Saída de erro padrão
+#  Pipe
 #  
 # Capítulo 03: O editor de textos "vi"
 #  Modos de edição e de comandos
 #  Comandos do "vi"
 #  
 # Capítulo 04: Shell Script
-#  "If", "for", "case" e "while"
+#  Ordem de execução
 #  Variáveis e variáveis de ambiente
-#  Entrada padrão
-#  Saída padrão
-#  Saída de erro padrão
+#  Parâmetros
+#  "If", "for", "case" e "while"
 #  
 # Capítulo 05: Instalação de softwares
 #  Gerenciadores de pacotres
