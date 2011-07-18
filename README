@@ -39,7 +39,7 @@
 #  O RAM disk inicial "initrd"
 #  O sistema de arquivos virtual "/proc"
 #  Configurando o kernel com "sysctl"
-
+#
 # Capítulo 08: Sistemas de arquivos
 #  Gerenciamento de partições
 #  Memória virtual "swap"
