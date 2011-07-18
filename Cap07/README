@@ -1,0 +1,6 @@
+# Capítulo 07: Kernel
+#  Imagens do kernel
+#  Módulos do kernel
+#  O RAM disk inicial "initrd"
+#  O sistema de arquivos virtual "/proc"
+#  Configurando o kernel com "sysctl"

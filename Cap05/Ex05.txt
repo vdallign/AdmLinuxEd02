@@ -1,4 +1,4 @@
-1. Instale o  apache “httpd” a partir do source.
+1. Instale o  apache "httpd" a partir do source.
  - Baixe o fonte de "http://ftp.unicamp.br/pub/apache//httpd/httpd-2.2.19.tar.gz"
  - Será necessária a instalação do compilador "gcc". Faça-o usando o "yum".
 
