@@ -4,12 +4,8 @@
  - Certifique-se de que esse módulo será carregado da próxima vez que o computador
 for inicializado.
 
-4. Crie um novo ramdisk inicial, garantindo que o módulo "raid1" será carregado
-durante o boot.
- - Crie uma nova entrada no GRUB para o boot com o novo ramdisk. Torne-a default.
+3. Verifique se o roteamento está habilitado em sua máquina.
 
-5. Verifique se o roteamento está habilitado em sua máquina.
-
-6. Certifique-se, via sistema de arquivos virtual, de que seu computador
+4. Certifique-se, via sistema de arquivos virtual, de que seu computador
 irá ignorar todas as solicitações de ping.
  - Torne essa configuração persistente.
