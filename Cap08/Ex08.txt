@@ -1,0 +1,43 @@
+1. Remova a partição "/dev/sda8" do seu sistema.
+
+2. Crie uma nova partição extendida com 1GB.
+
+3. Formate a nova partição com o sistema de arquivos ext4.
+
+4. Crie o diretorio "/dados".
+
+5. Monte a partição nova no diretório "/dados".
+
+6. Certifique-se de que as alterações serão persistentes.
+
+
+7. Crie mais 3 partições extendidas, cada uma com 1GB.
+
+8. Crie um "Volume Group" com as 3 novas partições.
+
+9. Crie 2 "Logical Volumes" com 800MB cada. Chame-os de MeuLogVol01 e MeuLogVol02.
+
+10. Formate os dois novos volumes em ext4.
+
+11. Crie os diretórios "/LVM1" e "/LVM2".
+
+12. Monte as partições LVM nos diretórios correspondentes.
+
+13. Certifique-se de que as alterações serão persistentes.
+
+
+14. Crie mais 4 partições extendidas, cada uma com 1GB.
+
+15. Crie um dispositivo raid5 "md0" com as 4 novas partições, sendo 1 "spare".
+
+16. Formate o novo dispositivo em ext4.
+
+17. Crie o diretório "/RAID".
+
+18. Monte a partição raid no diretório "/RAID".
+
+19. Certifique-se de que as alterações serão persistentes.
+
+20. Faça falhar a partição /dev/sda13 e observe a ação do raid.
+
+21. Remova e adicione a partição /dev/sda13 e observe a ação do raid.
