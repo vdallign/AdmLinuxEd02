@@ -1,0 +1,57 @@
+PREPARAÇÃO: Remonte a partição /dados do exercício anterior com suporte
+a acl e quota.
+
+1. Crie os seguintes usuários: joshua, dax, bryan, zak, ed e manager.
+
+
+2. Defina a senha de todos como sendo "trocar".
+
+
+3. Crie os grupos: sales, hr e web.
+
+
+4. Crie os seguintes diretórios: "/dados/adm", "/dados/public" e "/dados/develop".
+
+
+5. Configure e teste as seguintes permissões:
+ a) Grupo sales: joshua e dax
+
+ b) Grupo hr: dax bryan e zak
+
+ c) Grupo web: todos
+
+ d) Dir: "/dados/adm" - Pertence ao grupo "sales", com permissão de escrita,
+leitura e execução. O proprietário é o usuário dax. Nenhum outro usuário
+pode ler, escrever ou executar.
+
+ e) Dir: "/dados/public" - Todos leitura e escrita.
+
+ f) Dir: "/dados/develop" - Grupo web é proprietário do diretório, com 
+permissão de leitura e escrita. O proprietário é o "root" e todos os
+demais tem permissão de leitura e escrita.
+
+
+6. Certifique-se que todos os arquivos criados no diretório "/dados/adm"
+será do grupo "sales", e não do grupo do usuário que o criou.
+
+
+7. Certifique-se que, no diretório "/dados/public",  somente os proprietários
+dos arquivos criados poderão apagá-los.
+
+
+8. O diretório "/dados/develop", certifique-se que todos os arquivos criados
+terão umas as seguintes acls:
+ a) Usuário zak: rwx.
+
+ b) Usuário dax:rx.
+
+ c) Grupo users: rwx.
+
+
+9. Na partição "/dados", defina os seguintes limites de quota:
+ a) Usuário: zak, soft=100000, hard=150000.
+
+ b) Usuário bryan, soft=50000, hard=70000.
+
+ c) Grace time=5dias.
+
