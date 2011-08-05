@@ -1,0 +1,3 @@
+1. Agende uma rotação forçada de log para todo dia 15 do mês, às 12h.
+2. Direcione todo o log de autenticação para o arquivo /var/autenticacao.log
+3. Configure o logrotate desse seu novo arquivo de log para ser feito diariamente, comprimindo e com histórico de 7 dias.

@@ -1,0 +1,2 @@
+1. Agende uma atualização do relogio do sistema para todo domingo, às 7h.
+2. Agende um reboot, usando o comando “at”, para daqui a 2 minutos.
