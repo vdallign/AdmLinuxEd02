@@ -1,0 +1,11 @@
+1. Aplique as seguintes configurações de rede em seu computador:
+
+	IP: 192.168.50.X
+	MASK: 255.255.255.0
+	GW: 192.168.50.1
+	DNS1: 192.168.50.1
+	DNS2: 8.8.8.8
+	SUFIXO DE DNS: ucs.br
+	PROXY-HTTP: http://www-gw.ucs.br:3128
+
+2. Certifique-se de que essas configurações serão persistentes.

@@ -1,0 +1,2 @@
+1. Certifique-se, usando Iptables e TCPwrappers, que somente conseguirão 
+acessar o seu serviço de ssh o IP 200.233.29.189 e a rede 192.168.0.0/24.

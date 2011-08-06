@@ -1,4 +1,4 @@
 1. Desabilite a interface gráfica de seu computador.
 2. Certifique-se que essa configuração será persistente.
-3. Adicione a impressora de rede com IP 200.233.29.189.
+3. Adicione a impressora de rede http://200.233.29.188:631/printers/Curso01
 4. Imprima uma página de teste.
