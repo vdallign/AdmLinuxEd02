@@ -1,7 +1,7 @@
 1. Crie o usuário “aluno”, com senha “aluno”.
 
 2. Adicione o módulo “pam_tally” no arquivo “/etc/pam.d/system-auth”, no grupo “auth”, com valor “required”.
-	auth required pam_tally.so deny=3 unlock=200 even_deny_root_account
+	auth required pam_tally2.so deny=3 unlock=200 even_deny_root_account
 
 3. Aperte “Ctrl+Alt+F1” e acompanhe o log “/var/log/auth.log”.
 
@@ -10,6 +10,6 @@
 5. Depois de esgotado o número de tentativas, tente autenticar com a senha correta do usuário. Acompanhe o log.
 
 6. Zere o contador de tentativas para o usuário aluno:
-	pam_tally --user=aluno --reset
+	pam_tally2 --user=aluno --reset
 
 7. Tente efetuar o login, agora com a senha correta.
